@@ -40,7 +40,7 @@
     
 - **스프링 MVC 기반 WAS의 아키텍처를 각자 그려보고 데이터 흐름 설명하기**
     
-    <img src="/img/taemin-1.png">
+    <img src="/images/taemin-1.png">
     
 
 **MVC : model view controller**
