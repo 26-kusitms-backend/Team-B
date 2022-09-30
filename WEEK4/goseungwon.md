@@ -15,14 +15,12 @@
 - 프로세스로부터 자원(코드, 데이터, 힙영역을)을 할당 받는다. 따라서 스레드는 좀 더 효율적인 통신이 가능하고, 컨텍스트 스위칭이 빠르다.
 
 - 컨텍스트 스위칭이란?
-    
-    Task중 다른 task로 전환하기 위해 사용하는 방법. 인터럽트가 발생하면 현재 프로세스의 상태를 PCB에 저장하고 새로운 프로세스를 로드 하는 것
-    잦은 컨텍스트 스위칭은 성능저하를 일으킨다.
-    
+  Task중 다른 task로 전환하기 위해 사용하는 방법. 인터럽트가 발생하면 현재 프로세스의 상태를 PCB에 저장하고 새로운 프로세스를 로드 하는 것
+  잦은 컨텍스트 스위칭은 성능저하를 일으킨다.
 
 ### ❓스프링은 멀티 스레딩 방식으로 동작하는데, 이들 간의 Thread-safe할 수 있는 이유는 무엇인가
 
-<img src="./images/goseungwon.png">
+<img src="./images/_goseungwon_1.png">
 
 Spring에서 components, service, controller등 모든 빈은 ApplicationContext에 싱글톤 패턴으로 객체가 생성된다.
 
@@ -38,17 +36,17 @@ Spring에서 components, service, controller등 모든 빈은 ApplicationContext
 
 thread-unsafe
 
-<img src="./images/goseungwon1.png">
+<img src="./images/goseungwon_2.png">
 
 member가 계속 재사용 되기 때문에 멤버변수가 thread-safe하지 않다.
 
 thread-safe
 
-<img src="./images/goseungwon2.png">
+<img src="./images/goseungwon_3.png">
 
 ### ❓스프링 프로젝트를 실행 Run하면 그 시작점은 어디인가
 
-<img src="./images/goseungwon3.png">
+<img src="./images/goseungwon_4.png">
 
 1. 웹 어플리케이션이 실행되면 Tomcat은 web.xml을 로딩한다.
 2. web.xml을 읽고 설정파일을 ContextLoaderListener 생성.
