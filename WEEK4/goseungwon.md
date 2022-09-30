@@ -20,7 +20,7 @@
 
 ### ❓스프링은 멀티 스레딩 방식으로 동작하는데, 이들 간의 Thread-safe할 수 있는 이유는 무엇인가
 
-<img src="./images/_goseungwon_1.png">
+<img src="./images/goseungwon_1.png">
 
 Spring에서 components, service, controller등 모든 빈은 ApplicationContext에 싱글톤 패턴으로 객체가 생성된다.
 
