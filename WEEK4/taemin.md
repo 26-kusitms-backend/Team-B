@@ -32,7 +32,7 @@
     - 스택 영역(stack area) : 호출한 함수가 종료되면 되돌아올 메모리의 주소를 스택에 저장하거나 변수 사용 범위에 영향을 미치는 영역을 구현 할때 사용된다.
     - 힙 영역(heap area) : 동적으로 할당되는 데이터들을 위해 존재하는 공간이다.
     
-    ![프로세스 메모리 영역](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/74642620-063c-4432-9849-f3efe82f5074/Untitled.png)
+    <img src='./images/4주차-1.png'>
     
     프로세스 메모리 영역
     
@@ -52,7 +52,7 @@
     
     stack 영역은 쓰레드마다 각각 할당받고, 나머지 code, data, heap영역은 쓰레드끼리 공유된다.
     
-    ![쓰레드 메모리 영역](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2be5fc67-e676-4d51-b082-1ce02178c663/Untitled.png)
+     <img src='./images/4주차-2.png'>
     
     쓰레드 메모리 영역
     
